@@ -1,4 +1,5 @@
 import React from "react";
+import FooterContainer from "../components/Gaming/Footer/FooterContainer";
 import Gaming from "../components/Gaming/Gaming";
 import PopularContainer from "../components/global/popular/PopularContainer";
 
@@ -12,6 +13,7 @@ const HomePage = () => {
                 <PopularContainer />
                 <Gaming />
             </AllContainer>
+            <FooterContainer />
         </>
     );
 };
