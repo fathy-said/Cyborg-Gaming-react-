@@ -10,7 +10,7 @@ const FooterBox = () => {
                             Copyright © 2036 <a href="#">Cyborg Gaming</a>{" "}
                             Company. All rights reserved.
                             <br />
-                            Design:{" "}
+                            Design:
                             <a
                                 href="https://templatemo.com"
                                 target="_blank"

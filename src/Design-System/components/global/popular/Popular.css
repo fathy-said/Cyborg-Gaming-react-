@@ -31,7 +31,9 @@
 
 }
 
-.popular {}
+.popular {
+  min-width: 171px;
+}
 
 
 
