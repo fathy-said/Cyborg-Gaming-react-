@@ -6,6 +6,7 @@ import img5 from "../../../assets/images/popular-05.jpg";
 import img6 from "../../../assets/images/popular-06.jpg";
 import img7 from "../../../assets/images/popular-07.jpg";
 import img8 from "../../../assets/images/popular-08.jpg";
+// =====================
 
 export let DataPopular = [
     {
@@ -63,5 +64,20 @@ export let DataPopular = [
         NameViews: "Max 3D",
         Views: "2.3M",
         Img: img8,
+    },
+];
+// =====================
+export let DataLibrary = [
+    {
+        Title: "Dota 2",
+        Img: img1,
+    },
+    {
+        Title: "Fortnite",
+        Img: img2,
+    },
+    {
+        Title: "CS-GO",
+        Img: img3,
     },
 ];
