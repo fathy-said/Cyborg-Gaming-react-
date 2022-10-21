@@ -1,0 +1,80 @@
+.popular .box .box-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.popular .box .box-info .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.popular .box .box-info .info:nth-child(1) {}
+
+.popular .box .box-info .info:nth-child(2) {}
+
+
+
+
+.popular .box .box-info .info h6 {
+  color: var(--font-color-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.popular .box .box-info .info h5 {
+  text-transform: capitalize;
+  font-size: var(--fnt-15px);
+  color: var(--font-color-1);
+}
+
+.popular .box .box-info .info h6 span {
+  color: var(--font-color-1);
+}
+
+.popular .box .box-info .info h6 i {
+  font-size: var(--fnt-16px);
+
+}
+
+.popular .box .box-info .info:nth-child(1) h5 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: var(--fnt-15px);
+  color: var(--font-color-1);
+}
+
+.popular .box .box-info .info:nth-child(1) h6 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: var(--fnt-15px);
+  color: var(--font-color-1);
+
+}
+
+.popular .box .box-info .info:nth-child(1) h6 svg {
+
+  color: var(--main-color-2);
+}
+
+.popular .box .box-info .info:nth-child(2) h5 {
+  color: var(--font-color-2);
+}
+
+.popular .box .box-info .info:nth-child(2) h6 {}
+
+.popular .box .box-info .info:nth-child(2) h6 i {}
+
+.popular .box .box-info .info:nth-child(2) h6 span {}
+
+
+
+.popular .box .box-info .info h6 svg {
+  color: var(--main-color-1);
+}

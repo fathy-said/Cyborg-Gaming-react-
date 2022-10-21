@@ -1,0 +1,9 @@
+.gaming {
+  background-color: var(--back-color-1);
+  padding: var(--fnt-30px) !important;
+  border-radius: var(--main-border-radius);
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

@@ -1,0 +1,55 @@
+.PopularContainer {
+
+  background-color: var(--back-color-1);
+  padding: var(--fnt-30px);
+  border-radius: var(--main-border-radius);
+  position: relative;
+  max-width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+
+.PopularContainer a {
+  position: absolute;
+  width: fit-content;
+  bottom: -22.5px;
+  background-color: var(--main-color-1);
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--font-color-1);
+  padding: 12px 30px;
+
+}
+
+.PopularContainer a:hover {
+  background-color: var(--font-color-1);
+
+  color: var(--main-color-1);
+
+
+}
+
+.popular {}
+
+
+
+
+.popular .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--back-color-2);
+  margin: 10px 0;
+  border-radius: var(--main-border-radius)
+}
+
+.popular .box img {
+  width: 100%;
+  border-radius: 30px;
+  object-fit: cover;
+}

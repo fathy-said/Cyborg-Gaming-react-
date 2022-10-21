@@ -1,0 +1,65 @@
+h4 {
+  all: unset;
+}
+
+* {
+  color: wheat;
+}
+
+.library {
+  border-bottom: 1px solid var(--back-color-2);
+  margin: 20px 0 !important;
+  padding: 20px 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  max-width: 100%;
+}
+
+.library .box-img img {
+  width: 70px;
+  border-radius: 20px;
+  object-fit: cover !important;
+}
+
+.library .info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.library .info h4 {
+  color: var(--font-color-1);
+  font-size: var(--fnt-15px);
+  font-weight: 700;
+}
+
+.library .info h5 {
+  color: var(--font-color-2);
+  font-size: var(--fnt-14px);
+}
+
+
+.library button {
+  color: var(--main-color-1);
+  border: 1px solid var(--main-color-1);
+}
+
+.library button:hover {
+  color: var(--main-color-1);
+  background-color: var(--font-color-1);
+  border: 1px solid var(--font-color-1);
+}
+
+@media (max-width:992px) {
+
+  .library .info {
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  .library {}
+
+}

@@ -1,0 +1,15 @@
+ h4 {
+
+   color: #ec6090;
+   text-decoration: none;
+   margin-bottom: 30px;
+   font-weight: 700;
+   font-size: var(--fnt-35px);
+   text-align: center;
+ }
+
+ h4 span {
+   color: #fff;
+   font-style: normal;
+   text-decoration: underline;
+ }
