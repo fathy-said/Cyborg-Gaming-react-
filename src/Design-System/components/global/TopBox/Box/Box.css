@@ -1,0 +1,83 @@
+.box-left .box {
+
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0 !important;
+  border-bottom: 1px solid var(--back-color-2);
+
+}
+
+.box-left .box img {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--main-border-radius);
+}
+
+.box-left .box .info h5 {
+  font-size: var(--fnt-15px);
+  font-weight: 700;
+  color: var(--font-color-1);
+  text-transform: capitalize;
+}
+
+.box-left .box .info h6 {
+  font-size: var(--fnt-15px);
+  font-weight: 500;
+  color: var(--font-color-2);
+  text-transform: capitalize;
+
+}
+
+.box-left .box .icon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.box-left .box .icon span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: var(--fnt-16px);
+  font-weight: 500;
+  color: var(--font-color-1);
+  text-transform: capitalize;
+}
+
+.box-left .box .icon span:nth-child(1) svg {
+  color: var(--main-color-2);
+
+}
+
+.box-left .box .icon span:nth-child(2) svg {
+  color: var(--main-color-1);
+}
+
+.box-left .box .down-icon {
+  justify-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex: 1;
+
+}
+
+.box-left .box .down-icon button {
+  all: unset;
+  background-color: var(--back-color-2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px !important;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.box-left .box .down-icon svg {
+  color: var(--main-color-1);
+  font-size: var(--fnt-18px);
+  font-weight: 500;
+}

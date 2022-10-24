@@ -6,6 +6,9 @@ import img5 from "../../../assets/images/popular-05.jpg";
 import img6 from "../../../assets/images/popular-06.jpg";
 import img7 from "../../../assets/images/popular-07.jpg";
 import img8 from "../../../assets/images/popular-08.jpg";
+import imglive1 from "../../../assets/images/service-01.jpg";
+import imglive2 from "../../../assets/images/service-02.jpg";
+import imglive3 from "../../../assets/images/service-03.jpg";
 // =====================
 
 export let DataPopular = [
@@ -81,4 +84,50 @@ export let DataLibrary = [
         Img: img3,
     },
 ];
+// =====================
+
+export let DataSlider = [
+    {
+        Img: img1,
+    },
+    {
+        Img: img2,
+    },
+    {
+        Img: img3,
+    },
+    {
+        Img: img4,
+    },
+    {
+        Img: img5,
+    },
+];
+
+// =====================
+export let DataLive = [
+    {
+        title: "Go To Your Profile",
+        img: imglive1,
+        description:
+            "Cyborg Gaming is free HTML CSS website template provided by TemplateMo. This is Bootstrap v5.2.0 layout.",
+    },
+    {
+        title: `Live Stream Button
+`,
+        img: imglive2,
+        description: `If you wish to support us, you can make a small contribution via PayPal to info [at] templatemo.com
+
+`,
+    },
+    {
+        title: `You Are Live
+`,
+        img: imglive3,
+        description: `You are not allowed to redistribute this template's downloadable ZIP file on any other template collection website.
+
+`,
+    },
+];
+
 // =====================

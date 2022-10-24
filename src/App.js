@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Header, Footer } from "./Design-System/components/index";
-import { Home, Profile } from "./Design-System/Pages/index";
+import { Browse, Home, Profile } from "./Design-System/Pages/index";
 import { AllContainer } from "./Design-System/components/index";
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/profile" element={<Profile />} />
+                        <Route path="/browse" element={<Browse />} />
                     </Routes>
                 </AllContainer>
                 <Footer />

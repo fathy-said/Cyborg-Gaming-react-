@@ -5,6 +5,9 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Form, Button } from "react-bootstrap";
 import logo from "../../assets/images/logo.png";
+import pro from "../../assets/images/profile-header.jpg";
+import { FaTh } from "react-icons/fa";
+
 import "./header.css";
 let HeaderBox = () => {
     return (
@@ -13,16 +16,17 @@ let HeaderBox = () => {
                 <Link to="/" className="navbar-brand">
                     <img src={logo} alt="" />
                 </Link>
-                <Navbar.Toggle aria-controls="navbarScroll" />
+                <Navbar.Toggle aria-controls="navbarScroll">
+                    <FaTh />
+                </Navbar.Toggle>
                 <Navbar.Collapse id="navbarScroll">
-                    <Form className="d-flex">
+                    <Form className="d-flex my-lg-0">
                         <Form.Control
                             type="search"
                             placeholder="Search"
-                            className="me-2"
+                            className="me-2 "
                             aria-label="Search"
                         />
-                        <Button variant="outline-success">Search</Button>
                     </Form>
                     <Nav
                         className="me-auto my-2 my-lg-0"
@@ -45,6 +49,7 @@ let HeaderBox = () => {
                         </Link>
                         <Link to="/profile" className="nav-link">
                             profile
+                            <img src={pro} alt="" />
                         </Link>
                         {/* <Nav.Link href="#" disabled>
                         Link

@@ -6,6 +6,8 @@
    font-weight: 700 !important;
    font-size: var(--fnt-35px) !important;
    text-align: center;
+   padding: 0 !important;
+   display: block;
  }
 
  .title-box span {

@@ -1,0 +1,26 @@
+.box-left {
+  background-color: var(--back-color-1);
+  padding: 30px !important;
+  border-radius: var(--main-border-radius);
+  position: relative;
+  height: 590px;
+}
+
+
+
+.box-left .box .info {}
+
+
+.box-left .all-game {
+  color: var(--main-color-1);
+  font-size: var(--fnt-17px);
+  text-transform: capitalize;
+  font-weight: 500;
+  text-decoration: none;
+
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
