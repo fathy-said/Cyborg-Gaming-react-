@@ -3,7 +3,7 @@ import "./Title.css";
 const TitleBox = ({ TitleDecoration, TitleSpan }) => {
     return (
         <>
-            <h4 className=" text-lg-start">
+            <h4 className=" text-lg-start title-box">
                 <span>{TitleDecoration} </span>
                 {TitleSpan}
             </h4>

@@ -1,7 +1,7 @@
 footer p {
   text-align: center;
   padding: 30px 0px;
-  color: var(font-color-1);
+  color: var(--font-color-1);
   font-weight: 300;
 }
 

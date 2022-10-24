@@ -1,13 +1,13 @@
 import React from "react";
 import Library from "../global/Library/Library";
-import img1 from "../../assets/images/avatar-01.jpg";
-import img2 from "../../assets/images/avatar-02.jpg";
-import img3 from "../../assets/images/avatar-03.jpg";
 import { DataLibrary } from "../global/Data/DataBox";
 import "./Gaming.css";
+import TitleBox from "../global/TitleBox/TitleBox";
 const Gaiming = () => {
     return (
-        <div className="gaming">
+        <div className="gaming  text-lg-start">
+            <TitleBox TitleDecoration="Your Gaming" TitleSpan="Library" />
+
             {DataLibrary.length ? (
                 DataLibrary.map((el, index) => {
                     return (

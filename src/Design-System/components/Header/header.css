@@ -1,3 +1,40 @@
 .navbar {
   background-color: transparent !important;
 }
+
+.navbar .container {
+  align-items: center;
+}
+
+.navbar-nav {
+  flex: 1;
+  display: inline-flex;
+  justify-content: flex-end;
+  vertical-align: middle;
+  text-align: right;
+  margin-top: 0px;
+  margin-right: 0px;
+  transition: all 0.3s ease 0s;
+  position: relative;
+  z-index: 999;
+  text-align: left;
+}
+
+.navbar-nav a {
+  display: block;
+  font-weight: 400;
+  font-size: var(--fnt-15px);
+  text-transform: capitalize;
+  color: #666;
+  transition: all 0.3s ease 0s;
+  border: transparent;
+  padding: 10px 20px;
+  border-radius: 18px;
+  letter-spacing: .3px;
+  margin: 0 10px;
+
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: var(--main-color-1) !important;
+}

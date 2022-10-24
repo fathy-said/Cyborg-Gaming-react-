@@ -1,15 +1,15 @@
- h4 {
+ .title-box {
 
-   color: #ec6090;
-   text-decoration: none;
-   margin-bottom: 30px;
-   font-weight: 700;
-   font-size: var(--fnt-35px);
+   color: var(--main-color-1) !important;
+   text-decoration: none !important;
+   margin-bottom: 30px !important;
+   font-weight: 700 !important;
+   font-size: var(--fnt-35px) !important;
    text-align: center;
  }
 
- h4 span {
-   color: #fff;
+ .title-box span {
+   color: var(--font-color-1);
    font-style: normal;
    text-decoration: underline;
  }
