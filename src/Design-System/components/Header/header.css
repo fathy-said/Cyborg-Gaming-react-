@@ -95,6 +95,12 @@
   padding: 10px 15px !important;
 }
 
+.navbar form input::placeholder {
+  font-size: var(--fnt-15px);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
 .navbar form input:focus {
   border: 1px solid var(--font-color-1);
   ;

@@ -3,10 +3,7 @@ import { FaCheck } from "react-icons/fa";
 import "./Steam.css";
 const StreamBox = ({ UserImg, LiveImg, Title, SmTitle, ViewNum }) => {
     return (
-        <div
-            style={{ color: "#fff" }}
-            className="stream col-md-6 col-lg-4 col-xl-3"
-        >
+        <div className="stream col-md-6 col-lg-4 col-xl-3">
             <div className="box">
                 <div className="box-img">
                     <img src={LiveImg} alt="" />

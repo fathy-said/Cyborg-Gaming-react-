@@ -1,0 +1,40 @@
+.details-hero {}
+
+.details-hero .body-left {}
+
+.details-hero img {
+  border-radius: var(--main-border-radius);
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.details-hero .body-left img {}
+
+.details-hero .body-right {
+
+  position: relative;
+
+
+}
+
+.details-hero .body-right img {}
+
+.details-hero .body-right a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--font-color-1);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.details-hero .body-right svg {
+  color: var(--main-color-1);
+  font-size: var(--fnt-20px);
+}

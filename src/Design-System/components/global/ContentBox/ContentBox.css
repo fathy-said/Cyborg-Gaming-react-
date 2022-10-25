@@ -1,0 +1,52 @@
+.contentbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.contentbox div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.contentbox div h5 {
+  font-size: var(--fnt-17px);
+  font-weight: 600;
+  color: var(--font-color-1);
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.contentbox div h5 span {
+  font-size: var(--fnt-15px);
+  font-weight: 500;
+  color: var(--font-color-1);
+
+}
+
+.contentbox div:nth-child(1) h5 svg {
+  color: var(--main-color-2);
+}
+
+.contentbox div:nth-child(2) h5 {
+  font-size: var(--fnt-15px);
+  font-weight: 400;
+  color: var(--font-color-2);
+
+}
+
+.contentbox div:nth-child(2) h5 svg {
+  color: var(--main-color-1);
+}
+
+.contentbox div svg {}
+
+.contentbox div svg span {}

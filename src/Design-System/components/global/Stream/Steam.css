@@ -116,4 +116,5 @@
   font-size: var(--fnt-20px);
   font-weight: 700;
   text-transform: capitalize;
+  color: var(--font-color-1);
 }

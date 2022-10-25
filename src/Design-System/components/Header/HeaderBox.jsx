@@ -23,7 +23,7 @@ let HeaderBox = () => {
                     <Form className="d-flex my-lg-0">
                         <Form.Control
                             type="search"
-                            placeholder="Search"
+                            placeholder="type something"
                             className="me-2 "
                             aria-label="Search"
                         />

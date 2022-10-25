@@ -1,0 +1,9 @@
+.details-title {}
+
+.details-title h1 {
+  color: var(--font-color-1);
+  font-size: var(--fnt-45px);
+  font-weight: 700;
+  margin: var(--fnt-20px) 0 !important;
+  text-align: center;
+}

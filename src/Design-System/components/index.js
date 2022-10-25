@@ -13,3 +13,7 @@ export { default as LiveStream } from "./LiveStream/LiveStreamContainer";
 export { default as AllLive } from "./LiveStream/Live/AllLive.jsx";
 export { default as StreamBox } from "./global/Stream/StreamBox";
 export { default as StreamStart } from "./StreamStart/StreamStart.jsx";
+export { default as HeroDetails } from "./Pages/Details/hero/HeroBox";
+export { default as DetailsTitle } from "./Pages/Details/DetailsTitle/DetailsTitle";
+export { default as GameDetailsContainer } from "./Pages/Details/GameDetails/GameDetailsContainer";
+export { default as ContentBox } from "./global/ContentBox/ContentBox.jsx";
