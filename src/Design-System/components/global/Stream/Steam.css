@@ -1,0 +1,119 @@
+.stream {
+  margin: 20px 0 !important;
+}
+
+.stream .box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.stream .box .box-img {
+  position: relative;
+}
+
+.stream .box .box-img span {
+  position: absolute;
+  background-color: var(--main-color-1);
+  font-size: var(--fnt-13px);
+  font-weight: 500;
+  color: var(--font-color-1);
+  padding: 6px 15px;
+  text-transform: capitalize;
+  border-radius: var(--main-border-radius);
+  z-index: 20;
+  transition: var(--transition);
+  opacity: 0;
+}
+
+.stream .box:hover .box-img span {
+  opacity: 1;
+}
+
+.stream .box .box-img .live {
+  right: 15px;
+  top: 15px;
+
+}
+
+.stream .box .box-img .box-span {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.stream .box .box-img .box-span span {
+  position: relative;
+}
+
+.stream .box img {
+  max-width: 100%;
+  border-radius: var(--main-border-radius);
+  height: 260px;
+  object-fit: cover;
+}
+
+.stream .box .info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.stream .box .info img {
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.stream .box .info .body-left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.stream .box .info .body-left h6 {
+  margin: 0;
+  font-size: var(--fnt-14px);
+  font-weight: 400;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  color: var(--main-color-1);
+}
+
+.stream .box .info .body-left h6 span {
+  width: 20px;
+  height: 20px;
+  font-size: var(--fnt-13px);
+
+  background-color: var(--main-color-1);
+  border-radius: var(--main-border-radius);
+  color: var(--font-color-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stream .box .info .body-left h6 span svg {}
+
+.stream .box .info .body-left h4 {
+  margin: 0;
+  font-size: var(--fnt-20px);
+  font-weight: 700;
+  text-transform: capitalize;
+}

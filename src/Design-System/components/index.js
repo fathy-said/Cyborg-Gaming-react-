@@ -11,3 +11,5 @@ export { default as TopBox } from "./global/TopBox/TopBox.jsx";
 export { default as FeaturedGame } from "./FeaturedGames/FeaturedGame";
 export { default as LiveStream } from "./LiveStream/LiveStreamContainer";
 export { default as AllLive } from "./LiveStream/Live/AllLive.jsx";
+export { default as StreamBox } from "./global/Stream/StreamBox";
+export { default as StreamStart } from "./StreamStart/StreamStart.jsx";

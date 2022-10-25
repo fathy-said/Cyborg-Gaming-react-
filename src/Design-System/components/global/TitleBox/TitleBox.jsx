@@ -12,4 +12,4 @@ const TitleBox = ({ TitleDecoration, TitleSpan }) => {
 };
 
 export default TitleBox;
-// <TitleBox TitleDecoration="Most Popular" TitleSpan="Right Now" />;
+// TitleDecoration="Most Popular" TitleSpan="Right Now"

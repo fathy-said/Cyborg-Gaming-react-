@@ -9,6 +9,16 @@ import img8 from "../../../assets/images/popular-08.jpg";
 import imglive1 from "../../../assets/images/service-01.jpg";
 import imglive2 from "../../../assets/images/service-02.jpg";
 import imglive3 from "../../../assets/images/service-03.jpg";
+import imgstream1 from "../../../assets/images/stream-01.jpg";
+import imgstream2 from "../../../assets/images/stream-02.jpg";
+import imgstream3 from "../../../assets/images/stream-03.jpg";
+import imgstream4 from "../../../assets/images/stream-04.jpg";
+import imgstream5 from "../../../assets/images/stream-05.jpg";
+import imgstream6 from "../../../assets/images/stream-06.jpg";
+import imguser1 from "../../../assets/images/avatar-01.jpg";
+import imguser2 from "../../../assets/images/avatar-02.jpg";
+import imguser3 from "../../../assets/images/avatar-03.jpg";
+import imguser4 from "../../../assets/images/avatar-04.jpg";
 // =====================
 
 export let DataPopular = [
@@ -127,6 +137,38 @@ export let DataLive = [
         description: `You are not allowed to redistribute this template's downloadable ZIP file on any other template collection website.
 
 `,
+    },
+];
+
+// =====================
+export let DataSteam = [
+    {
+        UserImg: imguser1,
+        LiveImg: imgstream1,
+        Title: `Just Talking With Fans`,
+        SmTitle: `KenganC`,
+        ViewNum: `1.4k`,
+    },
+    {
+        UserImg: imguser2,
+        LiveImg: imgstream2,
+        Title: `CS-GO 36 Hours Live Stream`,
+        SmTitle: `LunaMa`,
+        ViewNum: `1.2k`,
+    },
+    {
+        UserImg: imguser3,
+        LiveImg: imgstream3,
+        Title: `Maybe Nathej Allnight Chillin'`,
+        SmTitle: `Areluwa`,
+        ViewNum: `1.8k`,
+    },
+    {
+        UserImg: imguser4,
+        LiveImg: imgstream4,
+        Title: `Live Streaming Till Morning'`,
+        SmTitle: `GangTm`,
+        ViewNum: `2.3M`,
     },
 ];
 

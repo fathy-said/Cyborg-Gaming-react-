@@ -1,0 +1,8 @@
+.stream-start {
+
+  background-color: var(--back-color-1);
+  padding: var(--fnt-30px);
+  border-radius: var(--main-border-radius);
+  margin: 80px 0 20px !important;
+  position: relative;
+}
