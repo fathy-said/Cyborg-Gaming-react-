@@ -1,1 +1,3 @@
-.box-left {}
+.box-left {
+  height: fit-content;
+}

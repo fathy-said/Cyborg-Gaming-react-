@@ -291,22 +291,22 @@ export let DataTopStream = [
     },
     {
         Img: img2,
-        Title: `KenganFollow`,
+        Title: `Kengan`,
         number: `02`,
     },
     {
         Img: img3,
-        Title: `AreluwaFollow`,
+        Title: `Areluwa`,
         number: `03`,
     },
     {
         Img: img4,
-        Title: `OmegFollow`,
+        Title: `Omeg`,
         number: `04`,
     },
     {
         Img: img5,
-        Title: `GangTeamFollow`,
+        Title: `GangTeam`,
         number: `05`,
     },
 ];
