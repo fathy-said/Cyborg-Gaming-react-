@@ -1,0 +1,33 @@
+.related-container {
+  background-color: var(--back-color-1);
+  padding: 30px;
+  border-radius: var(--main-border-radius);
+}
+
+
+/* ============= */
+.related-box {
+  margin-top: 30px !important;
+}
+
+.related-box .box {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--back-color-2);
+
+}
+
+.related-box .box img {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--main-border-radius);
+  object-fit: cover;
+}
+
+.related-box .box div {
+  flex: 1;
+}

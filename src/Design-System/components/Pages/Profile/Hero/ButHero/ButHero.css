@@ -1,0 +1,19 @@
+.but-hero {
+  width: 100%;
+}
+
+.but-hero button {
+  background-color: var(--main-color-1);
+  width: fit-content;
+  margin: auto;
+  padding: 12px 40px !important;
+  margin-top: 20px;
+}
+
+.but-hero button:hover {
+  background-color: var(--font-color-1);
+  color: var(--main-color-1);
+
+}
+
+/* =============== */

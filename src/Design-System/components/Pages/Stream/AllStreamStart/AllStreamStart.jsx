@@ -1,14 +1,14 @@
 import React from "react";
-import { DataSteam } from "../global/Data/DataBox";
-import { StreamBox, Title } from "../index";
-import "./StreamStart.css";
-const AllStreamStart = () => {
+import { DataSteamAll } from "../../../global/Data/DataBox";
+import { StreamBox, Title } from "../../../index";
+import "./AllStreamStart.css";
+const StreamStart = () => {
     return (
-        <div className=" row stream-start">
+        <div className=" row all-stream-start">
             <Title TitleDecoration="Most Popular " TitleSpan="Live Stream" />
 
-            {DataSteam.length ? (
-                DataSteam.map((el, index) => {
+            {DataSteamAll.length ? (
+                DataSteamAll.map((el, index) => {
                     return (
                         <StreamBox
                             key={index}
@@ -25,9 +25,9 @@ const AllStreamStart = () => {
                     not found data
                 </h2>
             )}
-            <button className="mn-middle">Discover All Streams</button>
+            <button className="mn-middle">Load More Streams</button>
         </div>
     );
 };
 
-export default AllStreamStart;
+export default StreamStart;

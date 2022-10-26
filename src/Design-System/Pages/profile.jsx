@@ -1,7 +1,12 @@
 import React from "react";
-
+import { ProfileHeroContainer, Gaming } from "../components/index";
 const Profile = () => {
-    return <div style={{ minHeight: "600px", color: "#fff" }}>Profile</div>;
+    return (
+        <>
+            <ProfileHeroContainer />
+            <Gaming TitleDecoration="Your Gaming" TitleSpan="Library" />
+        </>
+    );
 };
 
 export default Profile;

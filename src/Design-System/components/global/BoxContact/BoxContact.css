@@ -1,0 +1,75 @@
+ .box-contact {
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 10px;
+   border-bottom: 1px solid var(--font-color-3);
+   padding-bottom: 25px;
+   margin-bottom: 25px;
+ }
+
+ .box-contact:last-child {
+   border: none;
+ }
+
+ .box-contact .all {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 20px;
+ }
+
+ .box-contact .box-img {
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   gap: 10px;
+ }
+
+ .box-contact .box-img span {}
+
+ .box-contact .box-img img {
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+ }
+
+ .box-contact .box-title {
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   gap: 10px;
+
+ }
+
+ .box-contact .box-title span {
+   width: 22px;
+   height: 22px;
+   border-radius: 50%;
+   background-color: var(--main-color-1);
+   font-size: var(--fnt-13px);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .box-contact .box-title span svg {}
+
+ .box-contact .box-title h5 {
+   font-size: var(--fnt-14px);
+   color: var(--main-color-1);
+   font-weight: 400;
+   margin: 0 !important;
+ }
+
+ .box-contact button {
+   background-color: var(--main-color-1);
+   color: var(--font-color-1);
+   padding: 10px 20px;
+ }
+
+ .box-contact button:hover {
+   background-color: var(--font-color-1);
+   color: var(--main-color-1);
+ }

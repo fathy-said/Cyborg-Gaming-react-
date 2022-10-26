@@ -3,10 +3,10 @@ import Library from "../global/Library/Library";
 import { DataLibrary } from "../global/Data/DataBox";
 import "./Gaming.css";
 import TitleBox from "../global/TitleBox/TitleBox";
-const Gaiming = () => {
+const Gaiming = ({ TitleDecoration, TitleSpan }) => {
     return (
         <div className="gaming  text-lg-start">
-            <TitleBox TitleDecoration="Your Gaming" TitleSpan="Library" />
+            <TitleBox TitleDecoration={TitleDecoration} TitleSpan={TitleSpan} />
 
             {DataLibrary.length ? (
                 DataLibrary.map((el, index) => {

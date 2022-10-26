@@ -1,0 +1,11 @@
+.profile-container {
+  background-color: var(--back-color-1);
+  padding: 30px;
+  border-radius: var(--main-border-radius);
+  margin: 0 !important;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}

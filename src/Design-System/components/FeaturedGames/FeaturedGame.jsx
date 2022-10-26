@@ -5,7 +5,7 @@ const FeaturedGame = () => {
     return (
         <>
             <div className="slider-container row justify-content-between gap-4 gap-lg-0 mx-1 mx-lg-0">
-                <Slider />
+                <Slider TitleDecoration="Featured" TitleSpan="Games" />
                 <TopBox TitleDecoration="Top " TitleSpan="Downloaded" />
             </div>
         </>

@@ -12,7 +12,12 @@ const GameDetailsContainer = () => {
             <>
                 <div className="content col-md-6">
                     <div className="box">
-                        <ContentBox />
+                        <ContentBox
+                            Title="Fortnite"
+                            TitleSm={"Sandbox"}
+                            Views={"4.8"}
+                            Evaluate={"2.3M"}
+                        />
                     </div>
                 </div>
                 <div className="game-icon col-md-6">

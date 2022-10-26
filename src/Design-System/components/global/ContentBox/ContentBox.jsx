@@ -1,19 +1,19 @@
 import React from "react";
 import { FaStar, FaDownload } from "react-icons/fa";
 import "./ContentBox.css";
-export default function ContentBox() {
+export default function ContentBox({ Title, TitleSm, Views, Evaluate }) {
     return (
         <div className="contentbox">
             <div>
-                <h5>Fortnite</h5>
+                <h5>{Title}</h5>
                 <h5>
-                    <FaStar /> <span>4.8</span>
+                    <FaStar /> <span>{Evaluate}</span>
                 </h5>
             </div>
             <div>
-                <h5>Sandbox</h5>
+                <h5>{TitleSm}</h5>
                 <h5>
-                    <FaDownload /> <span>2.3M</span>
+                    <FaDownload /> <span>{Views}</span>
                 </h5>
             </div>
         </div>

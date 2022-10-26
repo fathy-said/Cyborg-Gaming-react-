@@ -1,0 +1,74 @@
+.but-box {
+  margin-bottom: 20px;
+}
+
+.but-box .box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 20px;
+  background-color: var(--back-color-2);
+  border-radius: var(--main-border-radius);
+  height: 100% !important;
+}
+
+.but-box .box .box-img {
+  position: relative;
+  width: 100%;
+
+}
+
+.but-box .box .box-img img {
+  border-radius: var(--main-border-radius);
+  object-fit: cover;
+  width: 100%;
+}
+
+.but-box .box .box-img a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background-color: var(--font-color-1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.but-box .box .box-img a {}
+
+.but-box .box .box-img a svg {
+  color: var(--main-color-1);
+  font-size: var(--fnt-14px);
+}
+
+.but-box .box .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.but-box .box .info h6 {
+  color: var(--font-color-1);
+  font-size: var(--fnt-16px);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.but-box .box .info span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.but-box .box .info span svg {
+  color: var(--main-color-1);
+  font-size: var(--fnt-16px);
+}

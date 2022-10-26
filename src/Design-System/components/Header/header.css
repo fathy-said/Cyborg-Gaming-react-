@@ -2,6 +2,11 @@
   background-color: transparent !important;
 }
 
+.navbar .active {
+
+  color: var(--main-color-1) !important;
+}
+
 .navbar .container {
   align-items: center;
 }

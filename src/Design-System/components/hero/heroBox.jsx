@@ -9,6 +9,7 @@ const HeroBox = () => {
                     <span>BROWSE</span> OUR
                 </h1>
                 <h1>POPULAR GAMES HERE</h1>
+
                 <button className="mn-button">browse now</button>
             </div>
         </div>

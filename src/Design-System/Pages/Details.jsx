@@ -3,6 +3,7 @@ import {
     HeroDetails,
     DetailsTitle,
     GameDetailsContainer,
+    RelatedContainer,
 } from "../components/index";
 
 const Details = () => {
@@ -11,6 +12,7 @@ const Details = () => {
             <HeroDetails />
             <DetailsTitle />
             <GameDetailsContainer />
+            <RelatedContainer />
         </>
     );
 };

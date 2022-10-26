@@ -3,13 +3,23 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Form, Button } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import logo from "../../assets/images/logo.png";
 import pro from "../../assets/images/profile-header.jpg";
 import { FaTh } from "react-icons/fa";
 
 import "./header.css";
 let HeaderBox = () => {
+    let tarActive = (el) => {
+        // remove active in all elements
+        el.target.parentElement
+            .querySelector(".active")
+            .classList.remove("active");
+        // add active in target
+        if (!el.target.classList.contains("active")) {
+            el.target.classList.add("active");
+        }
+    };
     return (
         <Navbar bg="" expand="lg">
             <Container>
@@ -33,21 +43,51 @@ let HeaderBox = () => {
                         style={{}}
                         navbarScroll
                     >
-                        <Link to="/" className="nav-link">
+                        <Link
+                            to="/"
+                            onClick={(e) => {
+                                tarActive(e);
+                            }}
+                            className="nav-link active"
+                        >
                             home
                         </Link>
                         {/* <Nav.Link href="home">home</Nav.Link> */}
 
-                        <Link to="/browse" className="nav-link">
+                        <Link
+                            to="/browse"
+                            className="nav-link"
+                            onClick={(e) => {
+                                tarActive(e);
+                            }}
+                        >
                             browse
                         </Link>
-                        <Link to="/details" className="nav-link">
+                        <Link
+                            to="/details"
+                            className="nav-link"
+                            onClick={(e) => {
+                                tarActive(e);
+                            }}
+                        >
                             details
                         </Link>
-                        <Link to="/streams" className="nav-link">
+                        <Link
+                            to="/streams"
+                            className="nav-link"
+                            onClick={(e) => {
+                                tarActive(e);
+                            }}
+                        >
                             Streams
                         </Link>
-                        <Link to="/profile" className="nav-link">
+                        <Link
+                            to="/profile"
+                            className="nav-link"
+                            onClick={(e) => {
+                                tarActive(e);
+                            }}
+                        >
                             profile
                             <img src={pro} alt="" />
                         </Link>

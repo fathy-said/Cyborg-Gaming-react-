@@ -3,11 +3,14 @@ import { Title } from "../index";
 import "./Slider.css";
 import Swiper from "./Swiper";
 
-const SliderContainer = () => {
+const SliderContainer = ({ TitleDecoration, TitleSpan }) => {
     return (
         <>
             <div className="box-slide col-lg-6 col-xl-7">
-                <Title TitleDecoration="Featured" TitleSpan="Games" />
+                <Title
+                    TitleDecoration={TitleDecoration}
+                    TitleSpan={TitleSpan}
+                />
                 <div className=" swiper-box mt-3">
                     <Swiper />
                 </div>

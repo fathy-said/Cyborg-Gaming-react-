@@ -6,7 +6,7 @@ const HomePage = () => {
         <>
             <Hero />
             <PopularContainer />
-            <Gaming />
+            <Gaming TitleDecoration="Your Gaming" TitleSpan="Library" />
         </>
     );
 };
