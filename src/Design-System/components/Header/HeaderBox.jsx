@@ -7,7 +7,6 @@ import { Form } from "react-bootstrap";
 import logo from "../../assets/images/logo.png";
 import pro from "../../assets/images/profile-header.jpg";
 import { FaTh } from "react-icons/fa";
-
 import "./header.css";
 let HeaderBox = () => {
     let tarActive = (el) => {
